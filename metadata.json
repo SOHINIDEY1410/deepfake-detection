@@ -1,0 +1,6 @@
+{
+  "name": "VeriMed",
+  "description": "Clinical diagnostic media authenticity verifier detecting deepfakes and synthetic manipulation across images, video, audio, and medical text.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

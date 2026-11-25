@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Precision optical scanner corner brackets -->
+    <path
+        android:fillColor="#2DD4BF"
+        android:pathData="M29,37 L29,29 L37,29 L37,32.5 L32.5,32.5 L32.5,37 Z" />
+    <path
+        android:fillColor="#2DD4BF"
+        android:pathData="M71,29 L79,29 L79,37 L75.5,37 L75.5,32.5 L71,32.5 Z" />
+    <path
+        android:fillColor="#2DD4BF"
+        android:pathData="M29,71 L32.5,71 L32.5,75.5 L37,75.5 L37,79 L29,79 Z" />
+    <path
+        android:fillColor="#2DD4BF"
+        android:pathData="M75.5,71 L79,71 L79,79 L71,79 L71,75.5 L75.5,75.5 Z" />
+
+    <!-- Bold Clinical Shield Silhouette -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,30 L71,36.5 L71,52.5 C71,64.2 63.6,74.2 54,78 C44.4,74.2 37,64.2 37,52.5 L37,36.5 Z" />
+
+    <!-- Surgical Medical Cross Cutout in Deep Teal -->
+    <path
+        android:fillColor="#0B353E"
+        android:pathData="M50.5,43 H57.5 V49.5 H64 V56.5 H57.5 V63 H50.5 V56.5 H44 V49.5 H50.5 Z" />
+
+    <!-- Luminous Teal Core Verification Dot -->
+    <path
+        android:fillColor="#2DD4BF"
+        android:pathData="M54,50.5 A2.5,2.5 0 1,1 53.99,50.5 Z" />
+</vector>

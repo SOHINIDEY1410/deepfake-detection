@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">VeriMed</string>
+    <string name="app_subtitle">Clinical Media Forensics</string>
+
+    <!-- Navigation -->
+    <string name="nav_verify">Verify</string>
+    <string name="nav_audit_log">Audit Log</string>
+    <string name="nav_protocol">Settings</string>
+
+    <!-- Theme Toggle -->
+    <string name="cd_toggle_theme">Toggle dark mode</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Clinical Day</string>
+    <string name="theme_dark">Reading Room</string>
+
+    <!-- Modalities -->
+    <string name="modality_image">Image</string>
+    <string name="modality_video">Video</string>
+    <string name="modality_audio">Audio</string>
+    <string name="modality_text">Text</string>
+
+    <!-- Verify Screen -->
+    <string name="verify_header_title">Diagnostic Authenticity</string>
+    <string name="verify_header_subtitle">Screen clinical imagery, telehealth recordings, voice memos, and medical documentation for synthetic manipulation.</string>
+    <string name="clinical_context_label">Clinical Context</string>
+    <string name="case_ref_label">Case / Accession Reference (Optional)</string>
+    <string name="case_ref_placeholder">e.g., RAD-2026-0412 (de-identified)</string>
+    <string name="case_ref_phi_note">Do not enter patient names or PHI.</string>
+    <string name="action_run_analysis">Run Forensic Analysis</string>
+    <string name="action_analyzing">Analyzing Media Integrity…</string>
+
+    <!-- Image Input -->
+    <string name="image_drop_title">Select Diagnostic Image</string>
+    <string name="image_drop_subtitle">Radiographs, dermatology photos, pathology slides, or clinical captures</string>
+    <string name="action_choose_image">Choose Image</string>
+    <string name="action_capture_photo">Capture</string>
+
+    <!-- Video Input -->
+    <string name="video_drop_title">Select Clinical Video</string>
+    <string name="video_drop_subtitle">Telehealth consultations, ultrasound cineloops, or endoscopy clips</string>
+    <string name="action_choose_video">Choose Video</string>
+
+    <!-- Audio Input -->
+    <string name="audio_drop_title">Select or Record Clinical Audio</string>
+    <string name="audio_drop_subtitle">Telehealth calls, dictation memos, or auscultation recordings</string>
+    <string name="action_choose_audio">Choose Audio File</string>
+    <string name="action_record_audio">Record Sample</string>
+    <string name="action_stop_recording">Stop Recording</string>
+    <string name="audio_permission_rationale">Microphone access is required only when recording a live voice sample for deepfake screening.</string>
+
+    <!-- Text Input -->
+    <string name="text_input_title">Clinical Text &amp; Documentation</string>
+    <string name="text_input_placeholder">Paste a clinical note, referral letter, radiology report, or telehealth transcript to screen for synthetic LLM generation or clinical fabrication…</string>
+    <string name="action_paste">Paste</string>
+    <string name="action_clear">Clear</string>
+    <string name="action_load_sample">Sample Note</string>
+
+    <!-- Report Screen -->
+    <string name="report_title">Forensic Report</string>
+    <string name="cd_back">Navigate back</string>
+    <string name="cd_share_report">Share forensic report</string>
+    <string name="cd_copy_hash">Copy SHA-256 hash</string>
+    <string name="section_executive_summary">Clinical Assessment</string>
+    <string name="section_forensic_metrics">Artifact Telemetry</string>
+    <string name="section_forensic_signals">Detected Signals</string>
+    <string name="section_clinical_recommendation">Recommended Action</string>
+    <string name="section_chain_of_custody">Media Provenance</string>
+    <string name="clinical_disclaimer">VeriMed provides AI-assisted forensic screening to support clinical review. Results are probabilistic and do not replace institutional chain-of-custody verification, raw PACS inspection, or licensed clinical judgment.</string>
+    <string name="action_new_scan">New Verification</string>
+    <string name="action_export_report">Export Summary</string>
+
+    <!-- Audit Log -->
+    <string name="audit_search_placeholder">Search case ID, file, or findings…</string>
+    <string name="audit_empty_title">No Verification Records Yet</string>
+    <string name="audit_empty_subtitle">Completed image, video, audio, and clinical text authenticity checks are logged locally on this device for audit review.</string>
+    <string name="action_clear_audit">Clear History</string>
+    <string name="confirm_clear_title">Clear Local Audit Log?</string>
+    <string name="confirm_clear_message">All stored forensic verification records will be permanently removed from this device.</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_delete">Delete</string>
+
+    <!-- Settings / Protocol -->
+    <string name="settings_appearance_title">Display Theme</string>
+    <string name="settings_appearance_subtitle">Switch between high-clarity daylight and low-glare reading room dark mode.</string>
+    <string name="settings_specialty_title">Default Clinical Specialty</string>
+    <string name="settings_methodology_title">Forensic Screening Rubrics</string>
+    <string name="settings_privacy_title">Local Privacy &amp; Provenance</string>
+    <string name="settings_privacy_body">Verification records and SHA-256 media digests are stored exclusively in this device\'s local encrypted sandbox. No patient-identifiable database is synced to external servers.</string>
+</resources>
